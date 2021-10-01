@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+body{
+        background-image: url("image%20(1).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:#fff;
+    box-shadow: 2px 2px 5px;
+    padding-top:5px;
+    z-index: 459340593459353953;
+}
+ul{
+    width: 100%;
+}
+ nav h1{
+     position: absolute;
+    margin: 15px;
+    margin-left: 45px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+     font-size: 35px;
+}
+.funny{
+    color: #0D0D0D;
+}
+.bunny{
+    color: #590202;
+    margin-left: 5px;
+}
+.main-link{
+    text-decoration: none;
+}
+nav li{
+    width: 200px;
+    height: 70px;
+    background-color: #262626;
+    margin-left: 1712px;
+    text-align: center;
+    margin-top: 3px;
+}
+nav li a{
+    display:block;
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding-top: 17px;
+    transition: 0.2s;
+}
+nav li:hover{
+    background-color: crimson;
+    transform: scale(0.9);
+}
+header{
+    width: 35%;
+    height: 852bpx;
+    margin: 0 auto;
+    position: relative;
+background-color: white;
+    box-shadow: 2px 2px 5px;
+    z-index: -41347823423;
+}
+h2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 42px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    padding-top:50px;
+    padding-bottom: 35px;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    letter-spacing: 2px;
+    
+}
+header .p-1{
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 1px;
+    margin: 25px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.border-down{
+    border-bottom: 1px solid black;
+}
